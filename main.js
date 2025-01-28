@@ -1,13 +1,15 @@
 //chamar jquery = $
 
 $(document).ready(function () {
-    console.log(document.querySelector('header button'))
-    console.log($('button-cancelar'))
-
-
+   
     //primeiro opção
+    
     $('header button').click(function(){
-        alert('Tudo certo bebê!')
+        $('form').slideDown()
+    })
+
+    $('#button-cancelar').click(function(){
+        $('form').slideUp()
     })
      //segunda opção
 
