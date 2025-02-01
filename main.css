@@ -57,7 +57,7 @@ ul li{
     max-width: 25%;
     list-style: none;
     position: relative;
-    max-height: 260px;
+    max-height: 280px;
     overflow-y: hidden;
 }
 
@@ -66,16 +66,16 @@ ul li img{
 }
 
 .overlay{
-    padding: 16px;
+    padding: 10px;
     background-color: rgba(0, 0, 0, 0.7);
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
-    opacity: 0;
+    opacity:0 ;
 }
 
-.overlay{
+.overlay a{
     color: white;
     text-decoration: none;
 }
